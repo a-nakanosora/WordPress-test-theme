@@ -6,7 +6,7 @@
 
 ## 使い方
 
-1. `<wordpress root directory>/wp-contents/themes/<適当なディレクトリ名前>/` の中にこれらのファイルを放り込む
+1. `<wordpress root directory>/wp-contents/themes/<適当なディレクトリ名>/` の中にこれらのファイルを放り込む
 2. WordPressの管理画面上でテーマを選択
 
 
