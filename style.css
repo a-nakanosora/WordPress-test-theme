@@ -1,0 +1,110 @@
+/*
+Theme Name: test theme
+Author: test
+Description: test
+Version: 0.1
+*/
+
+body {
+    background-color: #d8d8d8;
+    line-height: 1.5em;
+    font-size: small;
+}
+
+#main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+article[id^="post-"] {
+    margin: 50px 0px;
+    padding: 10px;
+    border: 1px dotted #abc;
+    background-color: #e4e4e4;
+    position: relative;
+}
+
+.entry-title {
+    font-weight: bold;
+    font-size: 100%;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.entry-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50%;
+    opacity: .5;
+}
+
+
+blockquote {
+    background-color: rgba(0, 0, 0, 0.06);
+    padding: 1px 20px;
+}
+
+
+/** nav prev/next **/
+.nav-prevnext {
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+}
+.nav-prevnext .next-posts-link, .nav-prevnext .prev-posts-link {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+
+
+/** sidebar **/
+#sidebar {
+    margin-top: 100px;
+    opacity: 0.4;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget {
+    font-size: 75%;
+}
+
+.widget a:link {
+    color: #5587b9;
+}
+.widget a:visited {
+    color: #88678c;
+}
+
+.widget ul a {
+    font-size: 100% !important;
+}
+
+.widget li {
+    display: inline-block;
+}
+
+#searchform {
+    margin: 20px 0;
+}
+
+#searchform  .screen-reader-text {
+    display: none;
+}
+
+#searchform  input[type="text"] {
+    background-color: #e6e6e6;
+    border: none;
+}
+#searchform  #searchsubmit {
+    background: #cbccce;
+    border: 1px dotted #abc;
+    color: #909090;
+    padding: 1px;
+}
